@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "ASAS Member Hub",
+    "slug": "asas-member-hub",
+    "scheme": "asas-member-hub",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "org.asas.memberhub"
+    },
+    "android": {
+      "package": "org.asas.memberhub",
+      "versionCode": 2
+    }
+  }
+}
